@@ -53,7 +53,8 @@ When <b>Kasparov plays black, try to keep the game as short as you can</b>. Aver
 Here we pay a visit to Python for a Decision Tree model.<br><br>
 After some cleaning, we're left with 2 datasets which represent the games where Kasparov plays either white or black.<br>
 Factorize command within Pandas enumerates unique values. This will come in handy during interpretation.
-
+<br><br><img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/DecisionTreeWhite.jpg"><br>
+<br><br><img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/DecisionTreeBlack.jpg"><br>
 For those who want to copy the Decision Tree code, here is the text version:<br><br>
 from sklearn import tree<br>
 import graphviz<br><br>

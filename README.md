@@ -26,7 +26,8 @@ Here are the counts of wins/ties/losses  for various scenarios:
 So, if you ever have the chance to play against Kasparov, make sure that he plays with black.
 <h2>2) Use C or D Type Openings</h2>
 In chess, the first few moves players make are called openings and they dictate how the game will be shaped.<br>
-There are over 1.000 named openings (Hooper; Whyld (1992). The Oxford Companion to Chess. ISBN 0-19-280049-3), and they are coded by letters for easier understanding. These are:<br>
+There are over 1.000 named openings (Hooper; Whyld (1992). The Oxford Companion to Chess. ISBN 0-19-280049-3), and they are coded by letters for easier understanding. These are:
+<br>
 <ul>
 <li>A: Flank Openings</li>
   <li>B: Semi-Open Games other than the French Defence</li>

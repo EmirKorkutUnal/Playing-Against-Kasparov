@@ -51,9 +51,11 @@ When <b>Kasparov plays black, try to keep the game as short as you can</b>. Aver
 <br><br><img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/AverageMoveCount.jpg"><br>
 <h3>Kasparov's chance of winning increases after the 56th move</h3>
 Here we pay a visit to Python for a Decision Tree model.<br><br>
-After some cleaning, we're left with 2 datasets which represent the games where Kasparov plays either white or black.<br>
-Factorize command within Pandas enumerates unique values. Without this, the model wouldn't have any numerical value to compare.<br>
-In this analysis, the depth of decision tree is left at 1; deeper analysis results in very small groups.
+<ul>
+<li>After some cleaning, we're left with 2 datasets which represent the games where Kasparov plays either white or black.</li>
+<li>Factorize command within Pandas enumerates unique values. Without this, the model wouldn't have any numerical value to compare.</li>
+<li>For this analysis, the depth of decision tree is left at 1; deeper analysis results in some very small groups.</li>
+<ul>
 <br><br><img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/DecisionTreeWhite.jpg"><br>
 <img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/DecisionTreeBlack.jpg"><br>
 For those who want to copy the Decision Tree code, here is the text version of the code for the games where Kasparov plays white:<br><br>

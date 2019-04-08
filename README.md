@@ -52,7 +52,7 @@ When <b>Kasparov plays black, try to keep the game as short as you can</b>. Aver
 <h3>Kasparov's chance of winning increases after the 56th move</h3>
 Here we pay a visit to Python for a Decision Tree model.<br><br>
 After some cleaning, we're left with 2 datasets which represent the games where Kasparov plays either white or black.<br>
-Factorize command within Pandas enumerates unique values. This will come in handy during interpretation.
+Factorize command within Pandas enumerates unique values. Without this, the model wouldn't have any numerical value to compare.
 <br><br><img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/DecisionTreeWhite.jpg"><br>
 <img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/DecisionTreeBlack.jpg"><br>
 For those who want to copy the Decision Tree code, here is the text version:<br><br>
@@ -72,3 +72,7 @@ graph<br><br>
 The decision tree shows that </b>when Kasparov plays white, the 45th move is the key</b>; games running longer than that have a much higher chance of not ending in a tie. The same goes for the 56th move when Kasparov plays black.<br><br>
 The Decision Tree shows the decisive move to be -0.5 for cases where Kasparov plays white. Since all existing moves are enumerated positively, the output simply shows that the existence of the 23W move (23rd move of white, coupled with 22 moves of black) is creating a difference.<br><br>
 The same logic applies for cases where Kasparov plays black. The decisive move of 28B (28th move of black, coupled with 28 moves of white) to be smaller than 2.5 means that when black playes the moves enumerated 0, 1 and 2 (c4,	g6,	and e4) on the 28th move, the game is grouped in the second bin. These moves were only played once each; so 3 of the games with an existing 56th move are in the first bin, the rest of the games with an existing 56th move are in the second bin.
+<h1>Conclusion</h1>
+Chances are that you wouldn't play against Kasparov, and even if you do, you wouldn't be able to play at Grandmaster level (since as of 2019, there are only 1621 Grandmasters according to Wikipedia. That's a very small sample size!). But if you somehow manage to sit across "The Beast" (Kasparov's nickname) while he's on the other side of a chess board, now you at least know his "weaknesses" and you can build your tactics around those.<br><br>
+Have a nice day,<br>
+Emir Korkut Unal

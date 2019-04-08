@@ -19,7 +19,7 @@ In chess, it is a known phenomenon that players who play with <b>white</b> have 
 Here are the counts of wins/ties/losses  for various scenarios:
 <img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/ColorAdvantage.jpg">
 <ul>
-<li>Kasparov has won 52.6% of the games where he played with white, but only 35.6% of those he played with black.</li>
-<li>Kasparov lost only 5.4% of the games where he played with white, but only 12.0% of those he played with black.</li>
+<li>Kasparov has <b>won 52.6%</b> of the games where <b>he played with white</b>, but only <b>35.6%</b> of those <b>he played with black</b>.</li>
+<li>Kasparov <b>lost only 5.4%</b> of the games where <b>he played with white</b>, but <b>12.0%</b> of those <b>he played with black.</b></li>
 </ul><br>
 So, if you ever have the chance to play against Kasparov, make sure that he plays with black.

@@ -54,7 +54,7 @@ Here we pay a visit to Python for a Decision Tree model.<br><br>
 After some cleaning, we're left with 2 datasets which represent the games where Kasparov plays either white or black.<br>
 Factorize command within Pandas enumerates unique values. This will come in handy during interpretation.
 <br><br><img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/DecisionTreeWhite.jpg"><br>
-<br><br><img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/DecisionTreeBlack.jpg"><br>
+<img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/DecisionTreeBlack.jpg"><br>
 For those who want to copy the Decision Tree code, here is the text version:<br><br>
 from sklearn import tree<br>
 import graphviz<br><br>
@@ -69,4 +69,6 @@ dot_data = tree.export_graphviz(clf,<br>
 &nbsp;&nbsp;                                out_file=None)<br>
 graph = graphviz.Source(dot_data)<br>
 graph<br><br>
-The decision tree shows that </b>when Kasparov plays white, the 45th move is the key</b>; games running longer than that have a much higher chance of not ending in a tie. The same goes for the 56th move when Kasparov plays black.
+The decision tree shows that </b>when Kasparov plays white, the 45th move is the key</b>; games running longer than that have a much higher chance of not ending in a tie. The same goes for the 56th move when Kasparov plays black.<br><br>
+The Decision Tree shows the decisive move to be -0.5 for cases where Kasparov plays white. Since all existing moves are enumerated positively, the output simply shows that the existence of the 23W move (23rd move of white, coupled with 22 moves of black) is creating a difference.<br><br>
+The same logic applies for cases where Kasparov plays black. The decisive move of 28B (28th move of black, coupled with 28 moves of white) to be smaller than 2.5 means that when black playes the moves enumerated 0, 1 and 2 (c4,	g6,	and e4) on the 28th move, the game is grouped in the second bin. These moves were only played once each; so 3 of the games with an existing 56th move are in the first bin, the rest of the games with an existing 56th move are in the second bin.

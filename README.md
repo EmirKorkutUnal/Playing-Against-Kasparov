@@ -12,7 +12,7 @@
 </ul>
 <h2>Database</h2>
 All data related to games were taken from www.chess.com.<br>
-Detailed information about opening were found at https://en.wikipedia.org/wiki/List_of_chess_openings.<br>
+Detailed information about openings were taken from https://en.wikipedia.org/wiki/List_of_chess_openings.<br>
 <h1>Results</h1>
 Overall, Kasparov won a whooping 44.2% of all his games against opponents with at least 2.500 rating, and lost only 8.7%.
 <h2>1) Make Kasparov Play with Black</h2>
@@ -34,3 +34,4 @@ There are over 1.000 named openings (Hooper; Whyld (1992). The Oxford Companion 
 <li>D: Closed Games and Semi-Closed Games</li>
 <li>E: Indian Defences</li>
 </ul>
+When Kasparov plays white, you have a higher chance of winning when he starts with an A type opening, and getting away with a tie is more likely when he starts with a C type opening.

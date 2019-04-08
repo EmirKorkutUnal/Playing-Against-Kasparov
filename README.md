@@ -15,8 +15,11 @@ Detailed information about opening were found at https://en.wikipedia.org/wiki/L
 <h1>Results</h1>
 Overall, Kasparov won a whooping 44.2% of all his games against opponents with at least 2.500 rating, and lost only 8.7%.
 <h2>1) Make Kasparov Play with Black</h2>
-In chess, it is a known phenomenon that players who play with <b>white</b> have a <b>higher win rate</b>. The winning rate difference between colors is non existent when amateurs play, but increases with the increase of professionality level.<br>
+In chess, it is a known phenomenon that players who play with <b>white</b> have a <b>higher win rate</b>. The winning rate difference between colors is non existent when amateurs play, but increases with the increase of professionality level.<br><br>
 Here are the counts of wins/ties/losses  for various scenarios:
 <img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/ColorAdvantage.jpg">
-
+<ul>
+<li>Kasparov has won 52.6% of the games where he played with white, but only 35.6% of those he played with black.</li>
+<li>Kasparov lost only 5.4% of the games where he played with white, but only 12.0% of those he played with black.</li>
+</ul>
 So, if you ever have the chance to play against Kasparov, make sure that he plays with black.

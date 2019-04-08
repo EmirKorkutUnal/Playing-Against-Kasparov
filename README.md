@@ -14,7 +14,7 @@
 All data related to games were taken from www.chess.com.<br>
 Detailed information about openings were taken from https://en.wikipedia.org/wiki/List_of_chess_openings.<br>
 <h1>Results</h1>
-Overall, Kasparov won a whooping 44.2% of all his games against opponents with at least 2.500 rating, and lost only 8.7%.
+Overall, Kasparov <b>won a whooping 44.2% of all his games against opponents with at least 2.500 rating</b>, and lost only 8.7%.
 <h2>1) Make Kasparov Play with Black</h2>
 In chess, it is a known phenomenon that players who play with <b>white</b> have a <b>higher win rate</b>. The winning rate difference between colors is non existent when amateurs play, but increases with the increase of professionality level.<br><br>
 Here are the counts of wins/ties/losses  for various scenarios:

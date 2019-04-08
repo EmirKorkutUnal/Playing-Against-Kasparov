@@ -21,5 +21,5 @@ Here are the counts of wins/ties/losses  for various scenarios:
 <ul>
 <li>Kasparov has won 52.6% of the games where he played with white, but only 35.6% of those he played with black.</li>
 <li>Kasparov lost only 5.4% of the games where he played with white, but only 12.0% of those he played with black.</li>
-</ul>
+</ul><br>
 So, if you ever have the chance to play against Kasparov, make sure that he plays with black.

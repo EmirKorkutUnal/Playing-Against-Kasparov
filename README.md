@@ -39,5 +39,6 @@ When <b>Kasparov plays white</b>, you have a <b>higher chance of winning</b> whe
 <br><br><img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/KasWhiteOpening.jpg"><br>
 Since you’re already advised to <b>make Kasparov play with black</b>, you should start the game with a <b>C type opening for better chances of win</b>, or a <b>D type opening for better chances of a draw</b> if that's what you're going after.
 <br><br><img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/KasBlackOpening.jpg"><br>
-<h2>3) D58, D76, D85 and D87 Give You Better Win and Tie Chances</h2>
-
+<h2>3) D58, D76, D85 and D87 Openings Give You Better Win and Tie Chances</h2>
+So, Kasparov plays black and you’re going with a C or D type opening. Which one should you prefer?<br>
+In this situation, C type openings have been preferred a relatively smaller number of times than other opening types (just 22 out of 734 games), so breaking them further down would generate very small groups which wouldn’t provide any useful insight. Keep in mind that the C type openings still have a 18.2% chance of winning and 59.1% chance of a tie against Kasparov.<br>

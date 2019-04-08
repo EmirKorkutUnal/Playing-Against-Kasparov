@@ -7,7 +7,7 @@
   <li>Players who have reached this level of rating are called "Grandmaster". For detailed information, you can visit https://www.chess.com/article/view/ratings.</li>
   <li>This approach reduces the sample size, provides a detailed look into Kasparov’s playing style against the best possible opponents, and increases the chances of wins by opponents and ties.</li></ul>
 <li>For the analysis of D type openings, those which have been played less than 7 times were excluded because small sample sizes could generate misleading conclusions.</li>
-<li>The analysis mostly consis of grouping and average comparison. Game length analysis was done using Decision Trees with Python.</li>
+<li>The analysis mostly consis of grouping and average comparison. Game length analysis was done by using Decision Trees with Python.</li>
 <li>All analysis is done by me.</li>
 </ul>
 <h2>Database</h2>

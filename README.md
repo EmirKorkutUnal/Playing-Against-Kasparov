@@ -23,4 +23,4 @@ Here are the counts of wins/ties/losses  for various scenarios:
 <li>Kasparov <b>lost only 5.4%</b> of the games where <b>he played with white</b>, but <b>12.0%</b> of those <b>he played with black.</b></li>
 </ul><br>
 So, if you ever have the chance to play against Kasparov, make sure that he plays with black.
-<h2>Use C or D Type Openings</h2>
+<h2>2) Use C or D Type Openings</h2>

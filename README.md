@@ -55,7 +55,7 @@ After some cleaning, we're left with 2 datasets which represent the games where 
 Factorize command within Pandas enumerates unique values. Without this, the model wouldn't have any numerical value to compare.
 <br><br><img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/DecisionTreeWhite.jpg"><br>
 <img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/DecisionTreeBlack.jpg"><br>
-For those who want to copy the Decision Tree code, here is the text version:<br><br>
+For those who want to copy the Decision Tree code, here is the text version for the games where Kasparov plays white:<br><br>
 from sklearn import tree<br>
 import graphviz<br><br>
 y = WMF['KasparovResult']<br>

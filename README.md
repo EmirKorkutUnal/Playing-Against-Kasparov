@@ -36,6 +36,6 @@ There are over 1.000 named openings (Hooper; Whyld (1992). The Oxford Companion 
 <li>E: Indian Defences</li>
 </ul><br>
 When <b>Kasparov plays white</b>, you have a <b>higher chance of winning</b> when he starts with an <b>A type opening</b>, and getting away with a <b>tie</b> is more likely when he starts with a <b>C type opening</b>.
-<img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/KasWhiteOpening.jpg"><br>
+<br><img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/KasWhiteOpening.jpg"><br>
 Since you’re already advised to <b>make Kasparov play with black</b>, you should start the game with a <b>C type opening for better chances of win</b>, or a <b>D type opening for better chances of a draw</b> if that's what you're goin after.
-<img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/KasBlackOpening.jpg"><br>
+<br><img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/KasBlackOpening.jpg"><br>

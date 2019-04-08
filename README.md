@@ -47,5 +47,5 @@ If you want to <b>win</b>, you can go with <b>D87 (Grünfeld, Exchange, Spassky 
 <br><br><img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/FullOpening.jpg"><br>
 <h2>4) Try to Keep the Game Short</h2>
 When <b>Kasparov plays white</b>, it takes him an <b>average of 80.8 moves to win</b>. To get a rare chance of beating him, you will need to be prepared for a longer game; but the <b>average tie happens sooner than a win for either side</b>.<br><br>
-When <b>Kasparov plays black, try to keep the game as short as you can</b>. Average move counts for both losses of Kasparov and ties are lower than the average moves of wins by Kasparov.<br><br>
-
+When <b>Kasparov plays black, try to keep the game as short as you can</b>. Average move counts for both losses of Kasparov and ties are lower than the average moves of wins by Kasparov.
+<br><br><img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/AverageMoveCount.jpg"><br>

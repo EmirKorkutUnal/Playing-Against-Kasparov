@@ -63,10 +63,10 @@ x = WMF.drop(['KasparovResult'], axis=1)<br><br>
 clf = tree.DecisionTreeClassifier(max_depth=1)<br>
 clf = clf.fit(x, y)<br><br>
 dot_data = tree.export_graphviz(clf,<br>
-&nbsp;&nbsp;                                feature_names = x.columns,<br>
-&nbsp;&nbsp;                                class_names = WhiteMoves['KasparovResult'].unique(),<br>
-&nbsp;&nbsp;                                filled=True,<br>
-&nbsp;&nbsp;                                out_file=None)<br>
+&nbsp;     feature_names = x.columns,<br>
+&nbsp;     class_names = WhiteMoves['KasparovResult'].unique(),<br>
+&nbsp;     filled=True,<br>
+&nbsp;     out_file=None)<br>
 graph = graphviz.Source(dot_data)<br>
 graph<br><br>
 The decision tree shows that <b>when Kasparov plays white, the 45th move is the key</b>; games running longer than that have a much higher chance of not ending in a tie. The same goes for the <b>56th move when Kasparov plays black</b>.<br><br>

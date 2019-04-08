@@ -13,8 +13,8 @@
 All data related to games were taken from www.chess.com.<br>
 Detailed information about opening were found at https://en.wikipedia.org/wiki/List_of_chess_openings.<br>
 <h1>Results</h1>
-<h2>1) Make Kasparov Play with Black</h2>
 Overall, Kasparov won a whooping 44.2% of all his games against opponents with at least 2.500 rating, and lost only 8.7%.
+<h2>1) Make Kasparov Play with Black</h2>
 In chess, it is a known phenomenon that players who play with white have a higher win rate. The winning rate difference between colors is non existent when amateurs play, but increases with the increase of professionality level.
 So, if you ever have the chance to play against Kasparov, make sure that he plays with black.
 

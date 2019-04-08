@@ -51,22 +51,21 @@ When <b>Kasparov plays black, try to keep the game as short as you can</b>. Aver
 <br><br><img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/AverageMoveCount.jpg"><br>
 <h3>Kasparov's chance of winning increases after the 56th move</h3>
 Here we pay a visit to Python for a Decision Tree model.<br><br>
-After some cleaning, 
+After some cleaning, we're left with 2 datasets which represent the games where Kasparov plays either white or black.<br>
+Factorize command within Pandas enumerates unique values. This will come in handy during interpretation.
+
 For those who want to copy the Decision Tree code, here is the text version:<br><br>
 from sklearn import tree<br>
-import graphviz<br>
+import graphviz<br><br>
 y = WMF['KasparovResult']<br>
-x = WMF.drop(['KasparovResult'], axis=1)<br>
+x = WMF.drop(['KasparovResult'], axis=1)<br><br>
 clf = tree.DecisionTreeClassifier(max_depth=1)<br>
-clf = clf.fit(x, y)<br>
+clf = clf.fit(x, y)<br><br>
 dot_data = tree.export_graphviz(clf,<br>
-&nbsp;                                feature_names = x.columns,<br>
-&nbsp;                                class_names = WhiteMoves['KasparovResult'].unique(),<br>
-&nbsp;                                filled=True,<br>
-&nbsp;                                out_file=None)<br>
+&nbsp;&nbsp;                                feature_names = x.columns,<br>
+&nbsp;&nbsp;                                class_names = WhiteMoves['KasparovResult'].unique(),<br>
+&nbsp;&nbsp;                                filled=True,<br>
+&nbsp;&nbsp;                                out_file=None)<br>
 graph = graphviz.Source(dot_data)<br>
 graph<br><br>
-
-
-
 The decision tree shows that </b>when Kasparov plays white, the 45th move is the key</b>; games running longer than that have a much higher chance of not ending in a tie. The same goes for the 56th move when Kasparov plays black.

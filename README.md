@@ -17,4 +17,4 @@ Overall, Kasparov won a whooping 44.2% of all his games against opponents with a
 <h2>1) Make Kasparov Play with Black</h2>
 In chess, it is a known phenomenon that players who play with <b>white</b> have a <b>higher win rate</b>. The winning rate difference between colors is non existent when amateurs play, but increases with the increase of professionality level.
 So, if you ever have the chance to play against Kasparov, make sure that he plays with black.
-img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/Screenshots/1 - Color_Advantage.jpg
+<img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/Screenshots/1 - Color_Advantage.jpg">

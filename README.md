@@ -59,6 +59,7 @@ Here we pay a visit to Python for a Decision Tree model.<br><br>
 <br><br><img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/DecisionTreeWhite.jpg"><br>
 <img src="https://github.com/EmirKorkutUnal/Playing-Against-Kasparov/blob/master/images/DecisionTreeBlack.jpg"><br>
 For those who want to copy the Decision Tree code, here is the text version of the code for the games where Kasparov plays white:<br><br>
+<pre>
 from sklearn import tree<br>
 import graphviz<br><br>
 y = WMF['KasparovResult']<br>
@@ -71,7 +72,7 @@ dot_data = tree.export_graphviz(clf,<br>
 &nbsp;     filled=True,<br>
 &nbsp;     out_file=None)<br>
 graph = graphviz.Source(dot_data)<br>
-graph<br><br>
+graph</pre><br>
 The decision tree shows that <b>when Kasparov plays white, the 45th move is the key</b>; games running longer than that have a much higher chance of not ending in a tie. The same goes for the <b>56th move when Kasparov plays black</b>.<br><br>
 The Decision Tree shows the split creating move to be -0.5 for cases where Kasparov plays white. Since all existing moves are enumerated positively, the output simply shows that the existence of the 23W move (23rd move of white, coupled with 22 moves of black) is creating a difference.<br><br>
 The same logic applies for cases where Kasparov plays black. The move of 28B (28th move of black, coupled with 28 moves of white) to be smaller than 2.5 means that when black playes the moves enumerated 0, 1 and 2 (c4,	g6,	and e4) on the 28th move, the game is grouped in the second bin. These moves were only played once each; so 3 of the games with an existing 56th move are in the first bin, the rest of the games with an existing 56th move are in the second bin. We can assume that the mere existence of the 56th move is enough for creating a difference.
